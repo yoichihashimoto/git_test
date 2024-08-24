@@ -1,0 +1,41 @@
+/* body {
+  color: blue;
+}
+#app ul {
+  list-style: none;
+}
+
+#app li > span.done {
+  text-decoration: line-through;
+}
+[v-cloak] {
+  display: none;
+}
+
+.large {
+  font-size: 36px;
+}
+.text-danger {
+  color: red;
+}
+.bg-gray {
+  background-color: gray;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.color {
+  color: green;
+} */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 5s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

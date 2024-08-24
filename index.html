@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue.js 3</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="app">
+      <button v-on:click="show =!show">Click!</button>
+      <transition name="fade"> <p v-show="show">Hello Vue.js</p> </transition>
+
+      <!-- <button-counter></button-counter>
+      <button-counter></button-counter>
+      <button-counter></button-counter> -->
+
+      <!-- <input type="number" v-model.number="age" />
+      <p>{{age + 10}}</p> -->
+      <!-- <label for="">
+        <input type="checkbox" v-model="checked" />{{ checked}}</label
+      > -->
+      <!-- <p>{{message}}</p>
+      <textarea name="" id="" v-model="message"></textarea> -->
+      <!-- <input type="text" v-model="message" value="test" /> -->
+      <!-- <p>{{message}}</p>
+      <input type="text" v-model="message" />
+
+      <pre>{{$data}}</pre> -->
+      <!-- <button @click="clickHandler">Now!</button>
+      <p>{{message}}</p>
+      <ul>
+        <li v-for="member in members">{{member.name,membe}}<span v-bind:class="{color:color}">{{member.age}}</span></li>
+      </ul>
+      <button @click="colorChange">color Change!</button> -->
+      <!-- <p>{{msg}}</p>
+      <button v-on:click="clickHandler($event,'Vue.js')" id="btn">Click!</button> -->
+      <!-- <p>{{message}}</p>
+      <button v-on:click="clickHandler($event,'Vue,js')">Click!</button> -->
+      <!-- <p v-show="toggle">show!!!</p> -->
+      <!-- <p v-if="color === 'red'">Stop</p>
+      <p v-else-if="color === 'yello'">Caution</p>
+      <p v-else-if="color === 'blue'">Go</p>
+      <p v-else>Not red/yellow/blue</p> -->
+
+      <!-- <p :style="styleObject">Vue.js</p> -->
+      <!-- <p :style="{color:color,fontSize:fontSize + 'px'}">インラインを適用</p> -->
+      <!-- <p>
+        Hello <span :class="isLarge ? largeClass : dangerClass">Vue.js</span>
+      </p> -->
+      <!-- <p>Hello <span :class="classObject">Vue.js!</span></p> -->
+      <!-- <p>Hello! <span v-bind:class="largeClass">Vue.js</span></p>
+      <p>Hello! <span v-bind:class="[largeClass,dangerClass]">Vue.js</span></p> -->
+
+      <!-- <p>
+        Hello<span
+          class="bg-gray text-blue"
+          v-bind:class="{large:isLarge,'text-danger' :hasError}"
+          >Vue.js!</span
+        >
+      </p> -->
+      <!-- <button @click="changeClass">Click</button>22 -->
+
+      <!-- <ul>
+        <li v-for="color in colors">{{color.name}}</li>
+      </ul>
+      <button v-on:click="onClick">Click</button> -->
+      <!-- <p><input type="text" v-model="firstName" name="" id="" /></p>
+      <p><input type="text" v-model="lastName" name="" id="" /></p>
+      <p>fullName:{{ fullName }}</p> -->
+
+      <!-- <p><input type="text" v-model="km" name="" id="" />km</p>
+      <p><input type="text" v-model="m" name="" id="" />m</p> -->
+
+      <!-- <p>{{message}}</p>
+      <input type="text" v-model="message" name="" id=""> -->
+
+      <!-- <h2>computed</h2>
+      <ol>
+        <li>{{computedNumber}}</li>
+        <li>{{computedNumber}}</li>
+        <li>{{computedNumber}}</li>
+      </ol>
+      <h2>methods</h2>
+      <ol>
+        <li>{{methodsNumaber()}}</li>
+        <li>{{methodsNumaber()}}</li>
+        <li>{{methodsNumaber()}}</li>
+      </ol> -->
+      <!-- <p>base price:<input type="text" v-model="basePrice" /></p>
+      <p>tax included price:<input type="text" v-model="taxincludedPrice" /></p> -->
+
+      <!-- <p>{{ reversedMessage }}</p>
+      <p>{{ reversedMessage }}</p>
+      <p>{{ reversedMessageMethod()}}</p> -->
+
+      <!-- <p>{{message}}</p> -->
+      <!-- <p v-cloak>{{ message }}</p>
+      <p v-text="yoichi">Mustache</p>
+      <p v-text="yoichi">Mustache</p>
+      <h2 v-text="message"></h2>
+      <a :href="url">apple</a>
+      <p>{{ok ? message : 'no'}}</p> -->
+      <!-- <p v-html="message"></p> -->
+      <!-- <p v-pre>{{message}}</p> -->
+      <!-- <button v-on:click="textChange">Click!!</button> -->
+      <!-- <h2>TODO List</h2>
+      <form v-on:submit.prevent>
+        <input type="text" v-model="newItem" />
+        <button style="margin-left: 10px; display: inline-block;" v-on:click="addItem">Add</button>
+      </form>
+      <ul>
+        <li v-for="(todo,index) in todos">
+          <input type="checkbox" v-model="todo.isDone" />
+          <span v-bind:class="{done:todo.isDone}">{{todo.item}}</span>
+          <button v-on:click="deleteItem(index)">Delete</button>
+        </li>
+      </ul> -->
+      <!-- <pre>{{$data}}</pre> -->
+    </div>
+    <script src="https://unpkg.com/vue@3.1.5"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
